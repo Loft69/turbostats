@@ -1,0 +1,114 @@
+:root {
+	--card: #fff;
+	--accent: #00009a;
+	--button: #3434ca;
+	--on-color: #fff;
+	--primary-text: #04044a;
+	--additional-text: rgba(4, 4, 74, 0.4);
+	--bg: #eff0f6;
+	--plus: #00b345;
+
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+.desktop-caption {
+	font-size: 14px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.desktop-legal {
+	color: var(--additional-text);
+	font-size: 12px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: -0.24px;
+}
+
+.desktop-heading1 {
+	color: var(--primary-text);
+	font-size: 28px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.desktop-body {
+	color: var(--primary-text);
+	font-size: 16px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.desktop-label {
+	font-size: 17px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.desktop-heading2 {
+	color: var(--primary-text);
+	font-size: 32px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.desktop-display {
+	color: var(--card);
+	font-size: 90px;
+	font-family: 'Geologica';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.btn2 {
+	display: flex;
+	padding: 48px 102px;
+	border: 1px solid #000;
+}
+
+.btn1 {
+	width: 132px;
+	display: flex;
+	background-color: var(--card);
+	padding: 12px 16px;
+	border-radius: 6px;
+}
+
+.circle {
+	width: 36px; height: 36px;
+	background-color: var(--button);
+	border-radius: 50%;
+}
+
+.hover-zoom:hover {
+	scale: 1.05;
+}
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
